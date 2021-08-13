@@ -4,10 +4,14 @@ This control lets you build FetchXml by using OOB Advanced Find control as part 
 
 It requires 2 input;
 
-- Bound Property, requires Multiline of Text field for storing FetchXml
+- Bound Property, requires Multiline of Text field to store FetchXml
 - Input Property, entity logical name needed for Advanced Find query builder
 
 ![Animation](Images/Animation.gif)
+
+## Installation
+
+Import latest [Managed Solution](https://github.com/osmanium/Mjolnir.PCF.AdvancedFind/releases)
 
 ## Configuration
 
