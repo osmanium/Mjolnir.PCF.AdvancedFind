@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Mjolnir" constructor="AdvancedFind" version="0.0.3" display-name-key="AdvancedFind" description-key="AdvancedFind description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <type-group name="texts">
+      <type>SingleLine.Text</type>
+      <type>SingleLine.TextArea</type>
+      <type>Multiple</type>
+    </type-group>
+    <property name="fetchXmlProperty" display-name-key="fetchXmlProperty_Display_Key" description-key="fetchXmlProperty_Desc_Key" of-type-group="texts" usage="bound" required="true" />
+    <property name="entityLogicalNameProperty" display-name-key="entityLogicalName_Display_Key" description-key="entityLogicalName_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/AdvancedFind.css" order="1" /> 
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
