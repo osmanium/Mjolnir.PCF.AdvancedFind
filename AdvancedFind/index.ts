@@ -38,6 +38,7 @@ export class AdvancedFind implements ComponentFramework.StandardControl<IInputs,
     if (newEntityLogicalName !== this._entityLogicalName) {
       this._container.innerText = '';
       this._entityLogicalName = newEntityLogicalName;
+      this._fetchXml = '';
       this._controlViewRendered = false;
     }
 
